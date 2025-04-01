@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id=' + i;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-XXXXXXX'); // <-- ZMIEŃ NA SWÓJ GTM ID
+    </script>
+
+    <!-- Cookiebot -->
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="YOUR_COOKIEBOT_ID" type="text/javascript" async></script>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" 
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="container">
+        <h1>Dołącz do naszego newslettera!</h1>
+        <p>Zapisz się, aby otrzymywać najnowsze informacje.</p>
+
+        <form id="newsletter-form">
+            <input type="email" id="email" name="email" placeholder="Twój adres e-mail" required>
+            <button type="submit">Zapisz się</button>
+        </form>
+
+        <p id="message"></p>
+    </div>
+
+   <div class="footer">
+    <a href="polityka.html">Polityka Prywatności</a> | <a href="regulamin.html">Regulamin</a>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
